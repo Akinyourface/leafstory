@@ -1,0 +1,15 @@
+from Globals import *
+
+class StaticEnemy(pygame.sprite.Sprite):
+    def __init__(self, startingx, startingy, image = "./assets/monster.png"):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.image.load(image)
+        self.rect = self.image.get_rect()
+        self.rect.x = startingx
+        self.rect.y = startingy
+        self.name = "static_shooter_enemy"
+        camera_sprite.add(self)
+        enemy_sprite.add(self)
+    def update(self, player):
+        #going to add code here to have the enemy shoot fireballs at the player
+        pass

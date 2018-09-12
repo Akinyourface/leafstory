@@ -1,0 +1,2 @@
+class collidable:
+    def __init__(startingx, startingy, width, height)

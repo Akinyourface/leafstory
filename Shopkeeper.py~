@@ -1,0 +1,13 @@
+from Globals import *
+from NPC import *
+
+class Shopkeeper(npc):
+    def __init__(self, startingx, startingy):
+        super().__init__(startingx, startingy, 32, 32, "./assets/pirate_left.png")
+        self.dialogue.append("Welcome to my shop, please buy something")
+        shopkeeper_sprite.add(self)
+        self.player = player_sprite
+    def update(self, player):
+        self.hit_list = pygame.sprite.spritecollide(self, self.player, False)
+        for col in self.hit_list:
+            print(self.dialogue[0])

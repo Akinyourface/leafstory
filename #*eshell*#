@@ -1,0 +1,180 @@
+Welcome to the Emacs shell
+
+~/Applications/leaf $ ls
+#Skeleton.py#        Entrance.py~         Lava.py       Pistol.py       Skeleton.py~
+Background.py        Foreground.py        Lava.py~      Pistol.py~      Tiled.py
+Background.py~       Foreground.py~       Main.py       Player.py       Tiled.py~
+Bullet.py            GameStateManager.py  Main.py~      Player.py~      TiledMap.py
+Bullet.py~           Globals.py           MainMenu.py   README.MD       TiledMap.py~
+Camera.py            Globals.py~          MainMenu.py~  ShopMenu.py     Wall.py
+Camera.py~           Gui.py               Money.py      ShopMenu.py~    Wall.py~
+DialogueManager.py   Gui.py~              Money.py~     Shopkeeper.py   __pycache__
+DialogueManager.py~  Inventory.py         NPC.py        Shopkeeper.py~  assets
+Entrance.py          Inventory.py~        NPC.py~       Skeleton.py     littletown.ogg
+~/Applications/leaf $ python3 Main.py
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+rendererd
+rendererd
+rendererd
+you have full ammo
+you have full ammo
+you have full ammo
+you have full ammo
+you have full ammo
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+Traceback (most recent call last):
+  File "Main.py", line 120, in <module>
+    if __name__ == "__main__": main()
+  File "Main.py", line 95, in main
+    ent.update(player)
+  File "/home/john/Applications/leaf/Skeleton.py", line 25, in update
+    self.dx, self.dy = self.dx / self.dist, self.dy / self.dist
+ZeroDivisionError: float division by zero
+~/Applications/leaf $ python3 Main.py
+libpng warning: iCCP: known incorrect sRGB profile
+Traceback (most recent call last):
+  File "Main.py", line 120, in <module>
+    if __name__ == "__main__": main()
+  File "Main.py", line 95, in main
+    ent.update(player)
+  File "/home/john/Applications/leaf/Skeleton.py", line 25, in update
+    self.dx, self.dy = self.dx / self.dist, self.dy / self.dist
+ZeroDivisionError: float division by zero
+~/Applications/leaf $ python3 Main.py
+libpng warning: iCCP: known incorrect sRGB profile
+you have no ammo
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+You have died, bad luck
+Traceback (most recent call last):
+  File "Main.py", line 120, in <module>
+    if __name__ == "__main__": main()
+  File "Main.py", line 95, in main
+    ent.update(player)
+  File "/home/john/Applications/leaf/Skeleton.py", line 27, in update
+    self.dx, self.dy = self.dx / self.dist, self.dy / self.dist
+ZeroDivisionError: float division by zero
+~/Applications/leaf $ a
+a: command not found
+~/Applications/leaf $ a
+a: command not found
+~/Applications/leaf $ python3 Main.py
+libpng warning: iCCP: known incorrect sRGB profile
+~/Applications/leaf $ ls
+*eshell*             Entrance.py~         Lava.py       Pistol.py       Skeleton.py~
+Background.py        Foreground.py        Lava.py~      Pistol.py~      Tiled.py
+Background.py~       Foreground.py~       Main.py       Player.py       Tiled.py~
+Bullet.py            GameStateManager.py  Main.py~      Player.py~      TiledMap.py
+Bullet.py~           Globals.py           MainMenu.py   README.MD       TiledMap.py~
+Camera.py            Globals.py~          MainMenu.py~  ShopMenu.py     Wall.py
+Camera.py~           Gui.py               Money.py      ShopMenu.py~    Wall.py~
+DialogueManager.py   Gui.py~              Money.py~     Shopkeeper.py   __pycache__
+DialogueManager.py~  Inventory.py         NPC.py        Shopkeeper.py~  assets
+Entrance.py          Inventory.py~        NPC.py~       Skeleton.py     littletown.ogg
+~/Applications/leaf $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~/Applications/leaf $ 
+~/Applications/leaf $ ls
+*eshell*             Entrance.py~         Lava.py       Pistol.py       Skeleton.py~
+Background.py        Foreground.py        Lava.py~      Pistol.py~      Tiled.py
+Background.py~       Foreground.py~       Main.py       Player.py       Tiled.py~
+Bullet.py            GameStateManager.py  Main.py~      Player.py~      TiledMap.py
+Bullet.py~           Globals.py           MainMenu.py   README.MD       TiledMap.py~
+Camera.py            Globals.py~          MainMenu.py~  ShopMenu.py     Wall.py
+Camera.py~           Gui.py               Money.py      ShopMenu.py~    Wall.py~
+DialogueManager.py   Gui.py~              Money.py~     Shopkeeper.py   __pycache__
+DialogueManager.py~  Inventory.py         NPC.py        Shopkeeper.py~  assets
+Entrance.py          Inventory.py~        NPC.py~       Skeleton.py     littletown.ogg
+~/Applications/leaf $ cd ../
+~/Applications $ ls
+C#  Game  TopDown  komorebi  leaf
+~/Applications $ cd C\#/
+~/Applications/C# $ ls
+Test.cs  Test.cs~
+~/Applications/C# $ mono Test.cs
+Cannot open assembly 'Test.cs': File does not contain a valid CIL image.
+~/Applications/C# $ cd ../
+~/Applications $ ls
+C#  Game  TopDown  komorebi  leaf
+~/Applications $ cd leaf
+~/Applications/leaf $ ls
+#*eshell*#           Entrance.py~         Lava.py~      Player.py       TiledMap.py
+*eshell*             Foreground.py        Main.py       Player.py~      TiledMap.py~
+Background.py        Foreground.py~       Main.py~      README.MD       Wall.py
+Background.py~       GameStateManager.py  MainMenu.py   ShopMenu.py     Wall.py~
+Bullet.py            Globals.py           MainMenu.py~  ShopMenu.py~    __pycache__
+Bullet.py~           Globals.py~          Money.py      Shopkeeper.py   assets
+Camera.py            Gui.py               Money.py~     Shopkeeper.py~  littletown.ogg
+Camera.py~           Gui.py~              NPC.py        Skeleton.py     
+DialogueManager.py   Inventory.py         NPC.py~       Skeleton.py~    
+DialogueManager.py~  Inventory.py~        Pistol.py     Tiled.py        
+Entrance.py          Lava.py              Pistol.py~    Tiled.py~       
+~/Applications/leaf $ ls
+#*eshell*#           Entrance.py~         Lava.py~      Player.py       TiledMap.py
+*eshell*             Foreground.py        Main.py       Player.py~      TiledMap.py~
+Background.py        Foreground.py~       Main.py~      README.MD       Wall.py
+Background.py~       GameStateManager.py  MainMenu.py   ShopMenu.py     Wall.py~
+Bullet.py            Globals.py           MainMenu.py~  ShopMenu.py~    __pycache__
+Bullet.py~           Globals.py~          Money.py      Shopkeeper.py   assets
+Camera.py            Gui.py               Money.py~     Shopkeeper.py~  bin
+Camera.py~           Gui.py~              NPC.py        Skeleton.py     littletown.ogg
+DialogueManager.py   Inventory.py         NPC.py~       Skeleton.py~    obj
+DialogueManager.py~  Inventory.py~        Pistol.py     Tiled.py        
+Entrance.py          Lava.py              Pistol.py~    Tiled.py~       
+~/Applications/leaf $ cd ../
+~/Applications $ cd C\#/
+~/Applications/C# $ ls
+Test.cs  Test.cs~  test.cs
+~/Applications/C# $ mono test.cs
+Cannot open assembly 'test.cs': File does not contain a valid CIL image.
+~/Applications/C# $ 

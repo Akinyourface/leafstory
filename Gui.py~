@@ -1,0 +1,16 @@
+from Globals import *
+from Inventory import *
+
+class Gui(pygame.sprite.Sprite):
+    def __init__(self, player):
+        self.player = player
+        self.inventory = Inventory(self.player)        
+        self.inventoryToggle = True
+    def update(self, event):
+        pass
+    def draw(self, screen, fontrenderer):
+        if self.inventoryToggle:
+            self.inventory.draw(screen)
+        surface = fontrenderer.render(str(self.inventory.pistol.currentAmmo), False, (0, 0, 0))
+        screen.blit(surface, (45, 0))
+        
